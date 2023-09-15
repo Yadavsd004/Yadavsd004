@@ -1,0 +1,993 @@
+<!DOCTE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Web page CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Simple lightbox CSS -->
+    <link rel="stylesheet" href="assets/css/simple-lightbox.min.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/icons/favicon-16x16.png"
+    />
+
+    <title>JabTV Landing Page</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+
+    <!-- Dark/light theme switcher -->
+
+    <!-- Bars -->
+
+    <!-- Hero section -->
+
+    <!-- About section -->
+
+    <!-- Lightbox image gallery -->
+
+    <!-- Jab TV Stakeholders -->
+
+    <!-- Email subscription -->
+
+    <!-- Social icons -->
+
+    <!-- Scroll to top button -->
+
+    <!-- Web page script -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons CDN -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+
+    <!-- Simple lightbox -->
+    <script src="assets/js/simple-lightbox.min.js"></script>
+    <script>
+      // Simple lightbox initializer
+    </script>
+  </body>
+</html>
+<nav>
+      <a href="#" class="logo">
+        <h1>
+          <span class="jab">Jab</span><span class="tv">TV</span
+          ><span class="fist">&#x1F44A;</span>
+        </h1>
+      </a>
+</nav>
+
+<ul>
+        <li class="nav-item">
+          <a href="#about" class="nav-link" id="nav-link">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="#stars" class="nav-link" id="nav-link">Boxing Stars</a>
+        </li>
+        <li class="nav-item">
+          <a href="#stakeholders" class="nav-link" id="nav-link"
+            >stakeholders</a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="#sub" class="nav-link" id="nav-link">Subscribe</a>
+        </li>
+</ul>
+
+<div class="hamburger" id="hamburger">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+</div>
+
+/* CSS Variables */
+:root {
+  --normal-font: 400;
+  --bold-font: 600;
+  --bolder-font: 900;
+  --primary-color: #0652dd;
+  --secondary-color: #ea2027;
+  --line-height: 1.7rem;
+  --transition: 0.4s ease-in;
+}
+
+/* Smooth scroll effect */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: var(--transition);
+}
+
+ body {
+  font-family: "Roboto", sans-serf;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+a:hover {
+  color: var(--secondary-color);
+}
+.fist {
+  color: var(--secondary-color);
+}
+
+.jab {
+  color: var(--primary-color);
+}
+
+.tv {
+  color: var(--secondary-color);
+}
+
+nav {
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  box-shadow: 2px 3px 2px #f1f1f1;
+}
+
+position: sticky;
+  top: 0;
+  left: 0;
+  z-index:
+
+  .hamburger {
+  display: none;
+}
+.logo {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item {
+  margin-left: 2rem;
+}
+
+.nav-link {
+  font-weight: var(--bold-font);
+}
+<section class="hero">
+      <div class="intro-text">
+        <h1>
+          <span class="hear"> You can Hear the Jabs </span> <br />
+          <span class="connecting"> Connecting</span>
+        </h1>
+        <p>
+          An online streaming platform for boxing matches <br />
+          We also dedicate some special time to throwbacks cuz old is gold
+        </p>
+        <a class="btn red" href="#">Learn More</a>
+        <a class="btn blue" href="#">Subscribe</a>
+      </div>
+      <div class="i-frame">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/sUmM_PFpsvQ"
+          title="YouTube video player"
+          frameborder="10"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        ></iframe>
+        <div class="stand-1"></div>
+        <div class="stand-2"></div>
+      </div>
+    </section>
+
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.9rem;
+  max-width: 1100px;
+  margin: 2rem auto -6rem;
+}
+.intro-text h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.intro-text h3 {
+  margin-bottom: 0.5rem;
+}
+
+.hero p {
+  line-height: var(--line-height);
+}
+
+.hear {
+  color: var(--primary-color);
+}
+
+.connecting {
+  color: var(--secondary-color);
+}
+freeCodeCamp.org
+Donate
+Learn to code — free 3,000-hour curriculum
+
+JANUARY 17, 2022
+/
+#WEB DEVELOPMENT
+Web Development Project – How to Make a Landing Page with HTML, CSS, and JavaScript
+Kolade Chris
+Kolade Chris
+Having a good landing page for your website is important. It can help drive customers to your site where they'll find your products and services and hopefully take action.
+
+In this text-based tutorial, I’m going to take you through how to make a landing page for a boxing TV channel with plain HTML, CSS, and JavaScript.
+
+The name of our fictional TV channel is JabTV, and the purpose of making the landing page is to collect emails.
+
+By the end of this tutorial, you will be able to make:
+
+a responsive hamburger menu
+a dark and light theme switcher
+a lightbox image gallery
+a scroll-to-top button
+and most importantly, a responsive web page
+It doesn’t end with those benefits. I believe that as a beginner, you will be able to level up your CSS too after completing this tutorial.
+
+To follow along with me, grab the starter files from this GitHub repo
+Check out the live demo too so you can get familiar with what we are building.
+
+Table of Contents
+The Project Folder Structure
+The Basic HTML Boilerplate
+How to Make the Navbar
+How to Style the Navbar
+How to Make the Hero Section
+How to Style the Hero Section
+How to Make the About Section
+How to Make the Lightbox Image Gallery
+How to Style the Lightbox Image Gallery
+How to Make the Stakeholders Section
+How to Style the Stakeholders Section
+How to Make the Email Subscription Section
+How to Style the Email Subscription Section
+How to Make the Footer
+How to Make the Scroll-to-top Button
+How to Make the Dark and Light Theme Switcher
+How to Style the Dark and Light Theme Switcher
+How to Make the Landing Page Responsive
+How to Make a Hamburger Menu for the Landing Page
+Conclusion
+The Project Folder Structure
+The folder structure follows the convention that many front end developers use.
+
+The HTML and readme files and a screenshot for the readme are in the root. The CSS files, JavaScript files, icons, and images go in their respective subfolders inside the assets folder.
+
+ss-1
+
+The Basic HTML Boilerplate
+The basic HTML boilerplate looks like this:
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Web page CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Simple lightbox CSS -->
+    <link rel="stylesheet" href="assets/css/simple-lightbox.min.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/icons/favicon-16x16.png"
+    />
+
+    <title>JabTV Landing Page</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+
+    <!-- Dark/light theme switcher -->
+
+    <!-- Bars -->
+
+    <!-- Hero section -->
+
+    <!-- About section -->
+
+    <!-- Lightbox image gallery -->
+
+    <!-- Jab TV Stakeholders -->
+
+    <!-- Email subscription -->
+
+    <!-- Social icons -->
+
+    <!-- Scroll to top button -->
+
+    <!-- Web page script -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons CDN -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+
+    <!-- Simple lightbox -->
+    <script src="assets/js/simple-lightbox.min.js"></script>
+    <script>
+      // Simple lightbox initializer
+    </script>
+  </body>
+</html>
+We will be coding the landing page section by section so it doesn’t get too complicated to understand.
+
+How to Make the Navbar
+The navbar will have a logo to the left and nav menu items to the right. Later, we'll place the dark and light theme switcher between the logo and nav items, but let’s focus on the logo and menu items first.
+
+For the logo, I won’t be using an image but a combination of text and emoji placed inside a span tag so I can style them differently.
+
+The HTML for the logo looks like this:
+
+<nav>
+      <a href="#" class="logo">
+        <h1>
+          <span class="jab">Jab</span><span class="tv">TV</span
+          ><span class="fist">&#x1F44A;</span>
+        </h1>
+      </a>
+</nav>
+It’s a combination of the words “Jab” and “TV”, with a punch emoji.
+
+The nav menu items are generic links placed in an unordered list tag, as shown in the snippet below:
+
+<ul>
+        <li class="nav-item">
+          <a href="#about" class="nav-link" id="nav-link">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="#stars" class="nav-link" id="nav-link">Boxing Stars</a>
+        </li>
+        <li class="nav-item">
+          <a href="#stakeholders" class="nav-link" id="nav-link"
+            >stakeholders</a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="#sub" class="nav-link" id="nav-link">Subscribe</a>
+        </li>
+</ul>
+In addition, we need some bars for the mobile menu. The bars will be hidden on the desktop version and visible on mobile phones.
+
+For this, I will be using bars made with raw HTML and CSS, not icons. The bars will be span tags placed in a container div with a class of hamburger.
+
+<div class="hamburger" id="hamburger">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+</div>
+The nav menu now looks like this in the browser:
+ss-2
+
+How to Style the Navbar
+The navbar looks pretty ugly at this point, so we need to style it. We need to style the logo to make it look like one, and we'll use Flexbox to place the logo and menu items side by side.
+
+For the whole web page, I will be using the Roboto font. I also have some CSS variables declared and some less complicated resets.
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+
+/* CSS Variables */
+:root {
+  --normal-font: 400;
+  --bold-font: 600;
+  --bolder-font: 900;
+  --primary-color: #0652dd;
+  --secondary-color: #ea2027;
+  --line-height: 1.7rem;
+  --transition: 0.4s ease-in;
+}
+
+/* Smooth scroll effect */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: var(--transition);
+}
+
+ body {
+  font-family: "Roboto", sans-serf;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+a:hover {
+  color: var(--secondary-color);
+} 
+In the CSS code snippet above, I’m removing the default margin and padding assigned to all elements by browsers and setting the box-sizing to border-box. This way the padding and margin set will be more intentional.
+
+I also set a transition (declared in the variables) so you will be able to see every transition on the website.
+
+All links will be blue in appearance and red on hover – correlating to the primary and secondary colors.
+
+To style the logo, I will make the first <span> red, the second <span> blue, and the .fist red. Both red and blue colors have been set as the secondary color and primary color respectively in the CSS variables.
+
+The red and blue colors are commonly used in amateur boxing and other combat sports, which is why I chose them for the website.
+
+.fist {
+  color: var(--secondary-color);
+}
+
+.jab {
+  color: var(--primary-color);
+}
+
+.tv {
+  color: var(--secondary-color);
+}
+So far, the navbar looks like this:
+ss-3
+
+To place the logo and menu items side by side, I will be using Flexbox. I will also hide the bars because we only need them on mobile devices.
+
+nav {
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  box-shadow: 2px 3px 2px #f1f1f1;
+}
+I applied a box shadow to make sure the user knows where the navbar terminates.
+
+I’m also going to make the navbar sticky, so it always stays at the top whenever the user scrolls down. This helps create a good user experience.
+
+I will do it with 4 lines of CSS:
+
+ position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
+To hide the bars, I’m going to target the .hambuger class and give it a display of none:
+
+.hamburger {
+  display: none;
+}
+The navbar looks a lot better:
+ss-4-1
+
+But the logo should be bigger. We also need to make sure the menu items are side by side and not on top of one another, so Flexbox will be instrumental here again.
+
+.logo {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item {
+  margin-left: 2rem;
+}
+
+.nav-link {
+  font-weight: var(--bold-font);
+}
+Take a look at the navbar now:
+ss-5
+
+It doesn’t get better than that!
+
+And take note that the logo is not an image. This means you can always update it with CSS.
+
+How to Make the Hero Section
+The hero section is going to contain a short description of JabTV, call to action (CTA) buttons, and an old-school TV made with CSS art. We'll make the TV with the iframe tag so a video can be displayed inside it.
+
+The video we'll place in the iframe is of boxing great Mohammed Ali.
+
+In short, this is what we are working towards:
+ss-6
+
+The HTML for the hero section is in the code snippet below:
+
+    <section class="hero">
+      <div class="intro-text">
+        <h1>
+          <span class="hear"> You can Hear the Jabs </span> <br />
+          <span class="connecting"> Connecting</span>
+        </h1>
+        <p>
+          An online streaming platform for boxing matches <br />
+          We also dedicate some special time to throwbacks cuz old is gold
+        </p>
+        <a class="btn red" href="#">Learn More</a>
+        <a class="btn blue" href="#">Subscribe</a>
+      </div>
+      <div class="i-frame">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/sUmM_PFpsvQ"
+          title="YouTube video player"
+          frameborder="10"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        ></iframe>
+        <div class="stand-1"></div>
+        <div class="stand-2"></div>
+      </div>
+    </section>
+With the HTML above, this is what we have in the browser:
+ss-7-1
+
+How to Style the Hero Section
+To align the text and TV side by side, we need Flexbox.
+
+display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.9rem;
+  max-width: 1100px;
+  margin: 2rem auto -6rem;
+}
+Apart from aligning things with Flexbox, I also gave the section a maximum width of 1100px so the user won't have to look all the way to the extreme end to see the content of the section – this is good for user experience.
+
+I applied a margin of 2rem on top, auto on the left and right, and -6rem on the bottom to center everything in the section.
+
+So far, we have this in the browser:
+ss-8
+
+To style the h1 texts of the hero section, I put them in their respective span tags, so I can style them differently.
+
+Therefore, I will target the texts with the class attributes of the span tags:
+
+.intro-text h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.intro-text h3 {
+  margin-bottom: 0.5rem;
+}
+
+.hero p {
+  line-height: var(--line-height);
+}
+
+.hear {
+  color: var(--primary-color);
+}
+
+.connecting {
+  color: var(--secondary-color);
+}
+Remember there are 2 buttons in the section, so I have a basic style defined for them:
+
+.btn {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 0.8rem 0.6rem;
+  border: none;
+  font-size: 1.4rem;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.red {
+  background-color: var(--secondary-color);
+  margin-right: 1.5rem;
+}
+
+.red:hover {
+  background-color: #f1262d;
+  color: #fff;
+}
+
+.blue {
+  background-color: var(--primary-color);
+}
+
+.blue:hover {
+  background-color: #095cf7;
+  color: #fff;
+}
+
+iframe {
+  max-width: 30rem;
+  border-top: 40px groove var(--primary-color);
+  border-bottom: 40px groove var(--primary-color);
+  border-right: 28px solid var(--secondary-color);
+  border-left: 28px solid var(--secondary-color);
+}
+
+.stand-1 {
+  height: 90px;
+  width: 6px;
+  background-color: var(--primary-color);
+  transform: rotate(40deg);
+  position: relative;
+  top: -16px;
+  left: 200px;
+}
+.stand-2 {
+  height: 90px;
+  width: 6px;
+  background-color: var(--secondary-color);
+  transform: rotate(-40deg);
+  position: relative;
+  top: -105px;
+  left: 255px;
+}
+
+<section class="about" id="about">
+      <h3>Watch the Jabs</h3>
+      <p>
+        Our primary objective is to bring live boxing matches to fans all around
+        the world
+      </p>
+
+      <h3>Its not About the Fights Alone!</h3>
+      <p>
+        We also air documentaries specially made for the greats, lifestyle of
+        boxers, news, and more.
+      </p>
+</section>
+
+.about {
+  position: relative;
+  background: url("../images/jab-transformed.png") no-repeat top center/cover;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.about h3 {
+  font-size: 3em;
+  margin-bottom: -20px;
+}
+
+.about p {
+  font-size: 1.5em;
+}
+
+.about h3 {
+  text-shadow: 2px 2px 2px #333;
+}
+
+.about p {
+  text-shadow: 2px 2px 2px #333;
+  font-size: 1.8rem;
+}
+
+<section class="stars" id="stars">
+      <div class="stars-gallery">
+        <a href="assets/images/boda--femi.jpg" class="big">
+          <img
+            src="assets/images/boda--femi.jpg"
+            alt="Anthony Joshua"
+            title="AJ"
+          />
+        </a>
+
+        <a href="assets/images/tyson-fury.jpg" class="big">
+          <img
+            src="assets/images/tyson-fury.jpg"
+            alt="Tyson Fury"
+            title="Gypsy King"
+          />
+        </a>
+
+        <a href="assets/images/iron-mike.webp.jpg" class="big">
+          <img
+            src="assets/images/iron-mike.webp.jpg"
+            alt="Iron Mike"
+            title="Iron Mike"
+          />
+        </a>
+
+        <a href="assets/images/ali.jpg" class="big">
+          <img
+            src="assets/images/ali.jpg"
+            alt="Mohammed Ali"
+            title="The Greatest"
+          />
+        </a>
+
+        <a href="assets/images/wilder.jpg" class="big"
+          ><img
+            src="assets/images/wilder.jpg"
+            alt="Deontay Wilder"
+            title="Bronze Bomber"
+          />
+        </a>
+
+        <a href="assets/images/big-george.jpg" class="big">
+          <img
+            src="assets/images/big-george.jpg"
+            alt="George Foreman"
+            title="Big George Foreman"
+          />
+        </a>
+      </div>
+</section>
+
+<script>
+     var lightbox = new SimpleLightbox(".stars-gallery a");
+</script>
+.stars-gallery {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+.stars-gallery img,
+.stars-gallery a {
+  width: 100%;
+  height: 100%;
+}
+.stars-gallery a:first-child {
+  grid-row: 1/3;
+  grid-column: 1/3;
+}
+.stars-gallery a:nth-child(2) {
+  grid-column: 3/5;
+}
+<section class="people" id="stakeholders">
+      <div class="stakeholders">
+        <div class="persons">
+          <div class="person-1">
+            <img src="assets/images/john.jpg" alt="John Doe" />
+            <p class="name">John Doe</p>
+            <p class="role">Founder</p>
+          </div>
+          <div class="person-2">
+            <img src="assets/images/jane.jpg" alt="Jane Doe" />
+            <p class="name">Jane Doe</p>
+            <p class="role">MD</p>
+          </div>
+          <div class="person-3">
+            <img src="assets/images/jnr.jpg" alt="John Doe Jnr" />
+            <p class="name">John Doe JNR</p>
+            <p class="role">Head Analyst</p>
+          </div>
+        </div>
+      </div>
+</section>
+.people {
+  margin-top: 2rem;
+  padding: 1rem 0;
+}
+
+.stakeholders {
+  margin: 2rem auto;
+  max-width: 1100px;
+}
+
+.stakeholders img {
+  border-radius: 0.6rem;
+}
+.persons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+  gap: 1rem;
+}
+.name {
+  color: var(--primary-color);
+  text-align: center;
+}
+
+.role {
+  color: var(--secondary-color);
+  text-align: center;
+  font-size: 0.8rem;
+}
+<section class="sub" id="sub">
+      <h3>Subscribe to our newsletter for updates</h3>
+      <form action="#">
+        <input
+          type="email"
+          name="email"
+          id="email-sub"
+          class="email-sub"
+          required
+        />
+        <input
+          type="submit"
+          value="Subscribe"
+          id="submit-btn"
+          class="submit-btn"
+        />
+      </form>
+</section>
+.sub {
+  margin-top: 2rem;
+}
+
+.sub h3 {
+  text-align: center;
+}
+
+form {
+  text-align: center;
+  margin: 0.4rem 2rem;
+}
+.email-sub {
+  padding: 0.2rem;
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+}
+
+.email-sub:focus {
+  border: 1px solid var(--secondary-color);
+  outline: none;
+}
+.submit-btn {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 0.3rem;
+  margin: 0 0.5rem;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #095cf7;
+}
+<section class="social">
+      <h3>Connect with us on Social Media</h3>
+      <div class="socicons">
+        <a href="#"> <ion-icon name="logo-twitter"></ion-icon> </a>
+        <a href="#"> <ion-icon name="logo-instagram"></ion-icon> </a>
+        <a href="#"> <ion-icon name="logo-facebook"></ion-icon> </a>
+      </div>
+</section>
+.social {
+  text-align: center;
+  margin: 2rem;
+}
+
+.socicons {
+  font-size: 1.3rem;
+}
+<footer>&copy;2020. All Rights Reserved</footer>
+footer {
+  border-top: 1px solid #f1f1f1;
+  box-shadow: 0px -2px 3px #f1f1f1;
+  text-align: center;
+  padding: 2rem;
+}
+<i class="scroll-up" id="scroll-up"
+     ><img
+       src="assets/icons/icons8-upward-arrow.png"
+       class="socicon up-arrow"
+       alt="up-arrow"
+/></i>
+.scroll-up {
+  position: fixed;
+  right: 0.5%;
+  bottom: 3%;
+  cursor: pointer;
+}
+
+.up-arrow {
+  width: 3rem;
+  height: 3rem;
+}
+const scrollUp = document.querySelector("#scroll-up");
+
+scrollUp.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    left: 0,
+    behavior: "smooth",
+  });
+});
+<div class="theme-switch">
+    <input type="checkbox" class="checkbox" id="checkbox" />
+    <label for="checkbox" class="label">
+       <ion-icon name="partly-sunny-outline" class="sun"></ion-icon>
+       <ion-icon name="moon-outline" class="moon"></ion-icon>
+       <div class="switcher"></div>
+    </label>
+</div>
+.checkbox {
+  opacity: 0;
+  position: absolute;
+}
+.label {
+  width: 50px;
+  height: 29px;
+  background-color: #111;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 30px;
+  padding: 6px;
+  position: relative;
+}
+.switcher {
+  background-color: #fff;
+  position: absolute;
+  top: 5px;
+  left: 2px;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+.moon {
+  color: #ffa502;
+}
+
+.sun {
+  color: #ff4757;
+}
